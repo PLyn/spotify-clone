@@ -1,6 +1,8 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { IoMdClose } from "react-icons/io";
 
+import useAuthModel from "@/hooks/useAuthModel";
+
 interface ModalProps {
   isOpen: boolean;
   onChange: (open: boolean) => void;
